@@ -2,7 +2,7 @@
 function Home(){
     return (
     <div>
-        Hello this is a test
+        Home
     </div>
     )
 }
