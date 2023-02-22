@@ -3,6 +3,7 @@ import NavBar from "./Navbar";
 import { Route, Switch } from "react-router-dom";
 import RandomTask from "./RandomTask";
 import "../index.css"
+import NewTask from "./NewTask";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home}/>
       </Switch>
+      <NewTask />
       <RandomTask />
     </>
   )
