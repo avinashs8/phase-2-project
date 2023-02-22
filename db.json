@@ -2,11 +2,16 @@
     "completed": [
       {
         "id": 1,
-        "activity": "Woody",
-        "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-       
+        "activity": "Do Laundry",
+        "time": "30"
       }
     ],
 
-    "incomplete": []
+    "incomplete": [
+        {
+         "id": 2, 
+         "activity": "Walk Dog",
+         "time": "30"
+        }
+    ]
   }
