@@ -1,5 +1,6 @@
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 function NewTask() {
   return (
@@ -13,10 +14,11 @@ function NewTask() {
         noValidate
         autoComplete="off"
         
+        
         >
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
         </Box>
-        <h4>Time</h4>
+        <h4>Time (in minutes)</h4>
         <Box
         component="form"
         sx={{
@@ -27,6 +29,8 @@ function NewTask() {
         
         >
         <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+        <br></br>
+        <Button variant="contained" type='submit'>Submit</Button>
         </Box>
     </div>
   );
