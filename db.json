@@ -4,6 +4,11 @@
         "id": 1,
         "activity": "Do Laundry",
         "time": "30"
+      },
+      {
+        "id": 4,
+        "activity": "Go to Gym",
+        "time": "60"
       }
     ],
 

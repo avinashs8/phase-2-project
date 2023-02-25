@@ -2,7 +2,7 @@
 function PendingTasks({ incompleteTasks }){
     const pendingTasks = incompleteTasks.map(incompleteTask => {
         return(
-           <li>{incompleteTask.activity}</li> 
+           <li key={incompleteTask.id}>{incompleteTask.activity}</li> 
         )
     })
     return(
