@@ -23,7 +23,7 @@ function App() {
         <Route exact path="/" component={Home}/>
       </Switch>
       <NewTask />
-      <PendingTasks incompleteTasks={incompleteTasks} setIncompleteTasks={setIncompleteTasks}/>
+      <PendingTasks incompleteTasks={incompleteTasks}/>
       <RandomTask />
     </>
   )
