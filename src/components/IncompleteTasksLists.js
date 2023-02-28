@@ -15,7 +15,9 @@ function IncompleteTasksLists({ incompleteTask }) {
         <List>
           <ListItem disablePadding>
             <ListItemButton>
-              <ListItemText primary={incompleteTask.activity}/><button>X</button>
+              <ListItemText primary={incompleteTask.activity}/>
+              <ListItemText primary={`Time: ${incompleteTask.time} minutes`}/>
+              <button>X</button>
             </ListItemButton>
           </ListItem>
         </List>
