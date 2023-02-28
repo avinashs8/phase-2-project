@@ -6,9 +6,11 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 
 
+
 function IncompleteTasksLists({ incompleteTask }) {
   return (
-    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+    
+    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper', margin: 'auto' }}>
       <nav aria-label="main mailbox folders">
         
       
@@ -23,6 +25,7 @@ function IncompleteTasksLists({ incompleteTask }) {
         </List>
       </nav>
     </Box>
+    
   )}
 
   export default IncompleteTasksLists

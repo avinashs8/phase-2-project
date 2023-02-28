@@ -8,7 +8,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 function CompleteTasksLists({ oldTask }) {
   return (
-    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+    <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper', margin: 'auto' }}>
       <nav aria-label="main mailbox folders">
         
       
