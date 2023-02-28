@@ -6,7 +6,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 
 
-function TasksLists({ incompleteTask }) {
+function CompleteTasksLists({ oldTask }) {
   return (
     <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
       <nav aria-label="main mailbox folders">
@@ -15,7 +15,7 @@ function TasksLists({ incompleteTask }) {
         <List>
           <ListItem disablePadding>
             <ListItemButton>
-              <ListItemText primary={incompleteTask.activity}/><button>X</button>
+              <ListItemText primary={oldTask.activity}/>
             </ListItemButton>
           </ListItem>
         </List>
@@ -23,4 +23,4 @@ function TasksLists({ incompleteTask }) {
     </Box>
   )}
 
-  export default TasksLists
+  export default CompleteTasksLists

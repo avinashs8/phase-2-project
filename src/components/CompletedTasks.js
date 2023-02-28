@@ -1,8 +1,10 @@
+import CompleteTasksLists from "./CompleteTaskList"
+
 function CompletedTasks({ oldTasks }){
 
     const completedTasks = oldTasks.map(oldTask => {
         return(
-           <li key={oldTask.id}>{oldTask.activity}</li> 
+           <CompleteTasksLists key={oldTask.id} oldTask={oldTask}/> 
         )
     })
     return(
