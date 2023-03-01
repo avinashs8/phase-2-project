@@ -2,10 +2,10 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import React, { useState } from 'react';
 
-function NewTask() {
+function NewTask({ incompleteTasks, setIncompleteTasks }) {
   const [activity, setActivity] = useState('')
   const [time, setTime ] = useState('')
-  const [submittedData, setSubmittedData] = useState([])
+  
 
   function handleSubmit(e){
         e.preventDefault()
@@ -13,7 +13,15 @@ function NewTask() {
           activity: activity,
           time: time
         }
-        console.log(formData)
+        const dataArray = [...incompleteTasks, formData]
+        setIncompleteTasks(dataArray)
+        fetch('http://localhost:3000/incomplete', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(formData)
+        })
     }
 
   function handleNewActivity(e){

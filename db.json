@@ -1,27 +1,41 @@
 {
-    "completed": [
-      {
-        "id": 1,
-        "activity": "Do Laundry",
-        "time": "30"
-      },
-      {
-        "id": 4,
-        "activity": "Go to Gym",
-        "time": "60"
-      }
-    ],
-
-    "incomplete": [
-        {
-         "id": 2, 
-         "activity": "Walk Dog",
-         "time": "30"
-        }, 
-        {
-          "id": 3, 
-          "activity": "Make Breakfast",
-          "time": "30"
-         }
-    ]
-  }
+  "completed": [
+    {
+      "id": 1,
+      "activity": "Do Laundry",
+      "time": "30"
+    },
+    {
+      "id": 4,
+      "activity": "Go to Gym",
+      "time": "60"
+    }
+  ],
+  "incomplete": [
+    {
+      "id": 2,
+      "activity": "Walk Dog",
+      "time": "30"
+    },
+    {
+      "id": 3,
+      "activity": "Make Breakfast",
+      "time": "30"
+    },
+    {
+      "activity": "Brush Teeth",
+      "time": "5",
+      "id": 4
+    },
+    {
+      "activity": "Shower",
+      "time": "15",
+      "id": 5
+    },
+    {
+      "activity": "Shower",
+      "time": "15",
+      "id": 6
+    }
+  ]
+}
