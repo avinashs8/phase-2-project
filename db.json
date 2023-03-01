@@ -21,21 +21,6 @@
       "id": 3,
       "activity": "Make Breakfast",
       "time": "30"
-    },
-    {
-      "activity": "Brush Teeth",
-      "time": "5",
-      "id": 4
-    },
-    {
-      "activity": "Shower",
-      "time": "15",
-      "id": 5
-    },
-    {
-      "activity": "Shower",
-      "time": "15",
-      "id": 6
     }
   ]
 }

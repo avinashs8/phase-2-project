@@ -7,10 +7,24 @@ import ListItemText from '@mui/material/ListItemText';
 
 
 
-function IncompleteTasksLists({ incompleteTask }) {
+function IncompleteTasksLists({ incompleteTask, setOldTasks, oldTasks }) {
 
   function handleDelete(){
-    
+    const id = incompleteTask.id
+    console.log(id)
+    fetch(`http://localhost:3000/incomplete/${id}`, {
+      method:'DELETE',
+    })
+    .then(resp => resp.json())
+    .then(data => {
+    const newCompleteTask = {
+      activity: incompleteTask.activity,
+      time: incompleteTask.time
+    }
+    setOldTasks([...oldTasks, newCompleteTask])
+    fetch('')
+    }
+    )
   }
 
   return (
@@ -24,7 +38,7 @@ function IncompleteTasksLists({ incompleteTask }) {
             <ListItemButton>
               <ListItemText primary={incompleteTask.activity}/>
               <ListItemText primary={`Time: ${incompleteTask.time} minutes`}/>
-              <button onClick={handleClick}>X</button>
+              <button onClick={handleDelete}>X</button>
             </ListItemButton>
           </ListItem>
         </List>

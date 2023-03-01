@@ -1,9 +1,9 @@
 import IncompleteTasksLists from "./IncompleteTasksLists"
 
-function PendingTasks({ incompleteTasks }){
+function PendingTasks({ incompleteTasks, setOldTasks, oldTasks }){
     const pendingTasks = incompleteTasks.map(incompleteTask => {
         return(
-           <IncompleteTasksLists key={incompleteTask.id} incompleteTask={incompleteTask}/> 
+           <IncompleteTasksLists key={incompleteTask.id} incompleteTask={incompleteTask} setOldTasks={setOldTasks} oldTasks={oldTasks}/> 
         )
     })
     return(

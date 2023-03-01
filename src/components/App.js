@@ -16,7 +16,7 @@ function App() {
     fetch('http://localhost:3000/incomplete')
     .then(resp => resp.json())
     .then(data => setIncompleteTasks(data))
-  }, [])
+  }, [oldTasks])
 
   useEffect(() => {
     fetch('http://localhost:3000/completed')
@@ -31,7 +31,7 @@ function App() {
         <Route exact path="/" component={Home}/>
       </Switch>
       <NewTask incompleteTasks={incompleteTasks} setIncompleteTasks={setIncompleteTasks}/>
-      <PendingTasks incompleteTasks={incompleteTasks}/>
+      <PendingTasks incompleteTasks={incompleteTasks} setOldTasks={setOldTasks} oldTasks={oldTasks}/>
       <CompletedTasks oldTasks={oldTasks}/>
       <RandomTask />
     </>
