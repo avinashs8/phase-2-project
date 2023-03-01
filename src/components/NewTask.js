@@ -1,6 +1,7 @@
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import React, { useState } from 'react';
+import RandomTask from './RandomTask';
 
 function NewTask({ incompleteTasks, setIncompleteTasks }) {
   const [activity, setActivity] = useState('')
@@ -43,6 +44,8 @@ function NewTask({ incompleteTasks, setIncompleteTasks }) {
 
           <Button variant="contained" type='submit'>Submit</Button>
         </form>
+
+        <RandomTask />
     </div>
   );
 }

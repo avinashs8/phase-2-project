@@ -24,23 +24,22 @@
       "activity": "Find a charity and donate to it",
       "time": "10",
       "id": 5
-    }
-  ],
-  "incomplete": [
-    {
-      "activity": "Organize your movie collection",
-      "time": "25",
-      "id": 1
-    },
-    {
-      "activity": "Solve a Rubik's cube",
-      "time": "25",
-      "id": 2
     },
     {
       "activity": "Fill out a basketball bracket",
       "time": "25",
-      "id": 3
+      "id": 6
+    },
+    {
+      "activity": "Solve a Rubik's cube",
+      "time": "25",
+      "id": 7
+    },
+    {
+      "activity": "Organize your movie collection",
+      "time": "25",
+      "id": 8
     }
-  ]
+  ],
+  "incomplete": []
 }
