@@ -8,6 +8,11 @@ import ListItemText from '@mui/material/ListItemText';
 
 
 function IncompleteTasksLists({ incompleteTask }) {
+
+  function handleDelete(){
+    
+  }
+
   return (
     
     <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper', margin: 'auto' }}>
@@ -19,7 +24,7 @@ function IncompleteTasksLists({ incompleteTask }) {
             <ListItemButton>
               <ListItemText primary={incompleteTask.activity}/>
               <ListItemText primary={`Time: ${incompleteTask.time} minutes`}/>
-              <button>X</button>
+              <button onClick={handleClick}>X</button>
             </ListItemButton>
           </ListItem>
         </List>

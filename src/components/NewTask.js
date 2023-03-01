@@ -26,12 +26,10 @@ function NewTask({ incompleteTasks, setIncompleteTasks }) {
 
   function handleNewActivity(e){
     setActivity(e.target.value)
-    console.log(activity)
   }
 
   function handleNewTime(e){
     setTime(e.target.value)
-    console.log(time)
   }
 
   return (
@@ -51,4 +49,3 @@ function NewTask({ incompleteTasks, setIncompleteTasks }) {
 
 export default NewTask;
 
-{/*  */}
