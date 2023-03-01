@@ -7,7 +7,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 
 
-function IncompleteTasksLists({ incompleteTask, setOldTasks, oldTasks }) {
+function IncompleteTasksLists({ incompleteTask, setOldTasks, oldTasks, handleDeleteTask }) {
 
   function handleDelete(){
     const id = incompleteTask.id
@@ -22,10 +22,20 @@ function IncompleteTasksLists({ incompleteTask, setOldTasks, oldTasks }) {
       time: incompleteTask.time
     }
     setOldTasks([...oldTasks, newCompleteTask])
-    fetch('')
+    fetch('http://localhost:3000/completed', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(newCompleteTask)
+    })
+    .then(resp => resp.json())
+    .then(() => {
+      handleDeleteTask(id)
+    })
+    })
     }
-    )
-  }
+  
 
   return (
     

@@ -1,26 +1,46 @@
 {
   "completed": [
     {
-      "id": 1,
-      "activity": "Do Laundry",
-      "time": "30"
+      "activity": "Match your storage containers with their lids",
+      "time": "25",
+      "id": 1
     },
     {
-      "id": 4,
-      "activity": "Go to Gym",
-      "time": "60"
+      "activity": "Match your storage containers with their lids",
+      "time": "25",
+      "id": 2
+    },
+    {
+      "activity": "Solve a Rubik's cube",
+      "time": "25",
+      "id": 3
+    },
+    {
+      "activity": "Fill out a basketball bracket",
+      "time": "25",
+      "id": 4
+    },
+    {
+      "activity": "Find a charity and donate to it",
+      "time": "10",
+      "id": 5
     }
   ],
   "incomplete": [
     {
-      "id": 2,
-      "activity": "Walk Dog",
-      "time": "30"
+      "activity": "Organize your movie collection",
+      "time": "25",
+      "id": 1
     },
     {
-      "id": 3,
-      "activity": "Make Breakfast",
-      "time": "30"
+      "activity": "Solve a Rubik's cube",
+      "time": "25",
+      "id": 2
+    },
+    {
+      "activity": "Fill out a basketball bracket",
+      "time": "25",
+      "id": 3
     }
   ]
 }
