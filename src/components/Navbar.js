@@ -20,7 +20,6 @@ export default function NavBar() {
         <Button>Create New Task</Button>
         <Button>Pending Tasks</Button>
         <Button>Completed Tasks</Button>
-        <Button>Ramdom Task</Button>
       </ButtonGroup>
     </Box>
   );

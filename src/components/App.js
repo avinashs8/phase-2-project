@@ -1,7 +1,6 @@
 import Home from "./Home";
 import NavBar from "./Navbar";
 import { Route, Switch } from "react-router-dom";
-import RandomTask from "./RandomTask";
 import "../index.css"
 import NewTask from "./NewTask";
 import PendingTasks from "./PendingTasks";
@@ -29,12 +28,17 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/" component={Home}/>
+        <Route path="/newtask" >
+          <NewTask incompleteTasks={incompleteTasks} setIncompleteTasks={setIncompleteTasks}/>
+        </Route>
+        <Route path="/pendingtasks">
+          <PendingTasks incompleteTasks={incompleteTasks} setOldTasks={setOldTasks} oldTasks={oldTasks} setIncompleteTasks={setIncompleteTasks}/>
+        </Route>
+        <Route path="/completedtasks">
+          <CompletedTasks oldTasks={oldTasks}/>
+        </Route>
       </Switch>
-      <NewTask incompleteTasks={incompleteTasks} setIncompleteTasks={setIncompleteTasks}/>
-      <PendingTasks incompleteTasks={incompleteTasks} setOldTasks={setOldTasks} oldTasks={oldTasks} setIncompleteTasks={setIncompleteTasks}/>
-      <CompletedTasks oldTasks={oldTasks}/>
-      <RandomTask />
-    </>
+</>
   )
 }
   
