@@ -1,6 +1,76 @@
 {
   "completed": [
-    
+    {
+      "activity": "Pick up litter around your favorite park",
+      "time": "30",
+      "id": 1
+    },
+    {
+      "activity": "Pick up litter around your favorite park",
+      "time": "30",
+      "id": 2
+    },
+    {
+      "activity": "Take a bubble bath",
+      "time": "20",
+      "id": 3
+    },
+    {
+      "activity": "Make a couch fort",
+      "time": "30",
+      "id": 4
+    },
+    {
+      "activity": "Make a couch fort",
+      "time": "30",
+      "id": 5
+    },
+    {
+      "activity": "Learn woodworking",
+      "time": "120",
+      "id": 6
+    },
+    {
+      "activity": "Clean out your refrigerator",
+      "time": "30",
+      "id": 7
+    },
+    {
+      "activity": "Explore a park you have never been to before",
+      "time": "30",
+      "id": 8
+    },
+    {
+      "activity": "Go see a movie in theaters with a few friends",
+      "time": "360",
+      "id": 9
+    },
+    {
+      "activity": "Go to a nail salon",
+      "time": "60",
+      "id": 10
+    },
+    {
+      "activity": "Do a jigsaw puzzle",
+      "time": "15",
+      "id": 11
+    },
+    {
+      "activity": "Prepare a dish from a foreign culture",
+      "time": "30",
+      "id": 12
+    },
+    {
+      "activity": "Make homemade ice cream",
+      "time": "60",
+      "id": 13
+    }
   ],
-  "incomplete": []
+  "incomplete": [
+    {
+      "activity": "Go to an escape room",
+      "time": "60",
+      "id": 1
+    }
+  ]
 }

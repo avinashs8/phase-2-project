@@ -32,9 +32,6 @@ export default function NavBar() {
         <NavLink to="/completedtasks">
           <Button>Completed Tasks</Button>
         </NavLink>
-        
-        
-        
       </ButtonGroup>
     </Box>
   );

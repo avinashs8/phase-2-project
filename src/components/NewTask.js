@@ -9,7 +9,7 @@ function NewTask({ incompleteTasks, setIncompleteTasks }) {
   
 
   function handleSubmit(e){
-        e.preventDefault()
+        
         const formData = {
           activity: activity,
           time: time
