@@ -64,13 +64,17 @@
       "activity": "Make homemade ice cream",
       "time": "60",
       "id": 13
-    }
-  ],
-  "incomplete": [
+    },
     {
       "activity": "Go to an escape room",
       "time": "60",
-      "id": 1
+      "id": 14
+    },
+    {
+      "activity": "Learn how the internet works",
+      "time": "60",
+      "id": 15
     }
-  ]
+  ],
+  "incomplete": []
 }
