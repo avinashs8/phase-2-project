@@ -76,5 +76,21 @@
       "id": 15
     }
   ],
-  "incomplete": []
+  "incomplete": [
+    {
+      "activity": "Wash your car",
+      "time": "45",
+      "id": 1
+    },
+    {
+      "activity": "Uninstall unused apps from your devices",
+      "time": "60",
+      "id": 2
+    },
+    {
+      "activity": "Clean out your refrigerator",
+      "time": "30",
+      "id": 3
+    }
+  ]
 }
