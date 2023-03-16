@@ -6,11 +6,6 @@
       "id": 1
     },
     {
-      "activity": "Pick up litter around your favorite park",
-      "time": "30",
-      "id": 2
-    },
-    {
       "activity": "Take a bubble bath",
       "time": "20",
       "id": 3
@@ -21,67 +16,77 @@
       "id": 4
     },
     {
-      "activity": "Make a couch fort",
-      "time": "30",
+      "activity": "Clean out your garage",
+      "time": "60",
       "id": 5
     },
     {
-      "activity": "Learn woodworking",
-      "time": "120",
+      "activity": "Start a blog for something you're passionate about",
+      "time": "60",
       "id": 6
     },
     {
-      "activity": "Clean out your refrigerator",
-      "time": "30",
+      "activity": "Learn Morse code",
+      "time": "60",
       "id": 7
     },
     {
-      "activity": "Explore a park you have never been to before",
-      "time": "30",
+      "activity": "sdafa",
+      "time": "asdf",
       "id": 8
     },
     {
-      "activity": "Go see a movie in theaters with a few friends",
-      "time": "360",
+      "activity": "Clean out your refrigerator",
+      "time": "Brush Teeth",
       "id": 9
     },
     {
-      "activity": "Go to a nail salon",
-      "time": "60",
+      "activity": "Brush Teeth",
+      "time": "asdf",
       "id": 10
     },
     {
-      "activity": "Do a jigsaw puzzle",
-      "time": "15",
+      "activity": "asdfasdf",
+      "time": "asdfasdf",
       "id": 11
     },
     {
-      "activity": "Prepare a dish from a foreign culture",
-      "time": "30",
+      "activity": "sdafa",
+      "time": "asdf",
       "id": 12
     },
     {
-      "activity": "Make homemade ice cream",
-      "time": "60",
+      "activity": "Brush Teeth",
+      "time": "3",
       "id": 13
     },
     {
-      "activity": "Go to an escape room",
+      "activity": "Learn Morse code",
       "time": "60",
       "id": 14
     },
     {
-      "activity": "Learn how the internet works",
+      "activity": "Start a blog for something you're passionate about",
       "time": "60",
       "id": 15
-    }
-  ],
-  "incomplete": [
+    },
+    {
+      "activity": "Bake something you've never tried before",
+      "time": "5",
+      "id": 16
+    },
     {
       "activity": "Wash your car",
       "time": "45",
-      "id": 1
+      "id": 17
     },
+    {
+      "activity": "Create or update your resume",
+      "time": "3",
+      "id": 18
+    }
+  ],
+  "incomplete": [
     {
       "activity": "Uninstall unused apps from your devices",
       "time": "60",
@@ -91,6 +96,61 @@
       "activity": "Clean out your refrigerator",
       "time": "30",
       "id": 3
+    },
+    {
+      "activity": "Have a bonfire with your close friends",
+      "time": "120",
+      "id": 5
+    },
+    {
+      "activity": "Pull a harmless prank on one of your friends",
+      "time": "15",
+      "id": 6
+    },
+    {
+      "activity": "Pot some plants and put them around your house",
+      "time": "30",
+      "id": 7
+    },
+    {
+      "activity": "Take your dog on a walk",
+      "time": "15",
+      "id": 10
+    },
+    {
+      "activity": "Brush Teeth",
+      "time": "3",
+      "id": 11
+    },
+    {
+      "activity": "Write a song",
+      "time": "60",
+      "id": 12
+    },
+    {
+      "activity": "Bake something you've never tried before",
+      "time": "5",
+      "id": 13
+    },
+    {
+      "activity": "Plan a trip to another country",
+      "time": "60",
+      "id": 14
+    },
+    {
+      "activity": "Create a cookbook with your favorite recipes",
+      "time": "60",
+      "id": 15
+    },
+    {
+      "activity": "",
+      "time": "",
+      "id": 16
+    },
+    {
+      "activity": "Learn Express.js",
+      "time": "5",
+      "id": 17
     }
   ]
 }

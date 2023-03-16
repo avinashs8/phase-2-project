@@ -11,7 +11,6 @@ function IncompleteTasksLists({ incompleteTask, setOldTasks, oldTasks, handleDel
 
   function handleDelete(){
     const id = incompleteTask.id
-    console.log(id)
     fetch(`http://localhost:3000/incomplete/${id}`, {
       method:'DELETE',
     })

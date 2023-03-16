@@ -9,19 +9,26 @@ function NewTask({ incompleteTasks, setIncompleteTasks }) {
   
 
   function handleSubmit(e){
-        
+        e.preventDefault()
         const formData = {
           activity: activity,
           time: time
         }
-        const dataArray = [...incompleteTasks, formData]
-        setIncompleteTasks(dataArray)
+        
         fetch('http://localhost:3000/incomplete', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify(formData)
+        })
+        .then(resp=> resp.json())
+        .then((data) => {
+          setActivity('')
+          setTime('')
+          const dataArray = [...incompleteTasks, data]
+          console.log(data, formData)
+          setIncompleteTasks(dataArray)
         })
     }
 
